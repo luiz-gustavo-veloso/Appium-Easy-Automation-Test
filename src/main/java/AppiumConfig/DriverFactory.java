@@ -29,7 +29,7 @@ public class DriverFactory {
         }
         // O retorno do driver fica logo após o fechamento do bloco IF
         return driver;
-    } // <-- Aqui fecha corretamente o método oDriver() do jeito que deve ser após concluir um test
+    } // <-- Aqui fecha corretamente o método oDriver() test
 
     public static void tearDown() {
         if (driver != null) {
